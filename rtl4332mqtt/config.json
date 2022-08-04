@@ -13,37 +13,29 @@
     "usb": true,
     "options":
     {
-    "mqtt_host": "192.168.1.100",
+    "mqtt_host": "",
     "mqtt_port": 1883,
-    "mqtt_user": "user",
-    "mqtt_password": "pass",
-    "mqtt_topic": "rtl_433",
-    "mqtt_retain" : "true",
-    "frequency" : "-f 915M",
-    "protocol" : "142",
-    "whitelist_enable": "false",
-    "whitelist": "",
-    "units": "native",
+    "mqtt_user": "",
+    "mqtt_password": "",
+    "mqtt_retain": false,
+    "rtl_topic": "homeassistant/sensor/rtl_433/P142/+/events",
     "discovery_prefix": "homeassistant",
     "discovery_interval": 600,
-    "debug": "false"
+    "force_update": false,
+    "log_level": "default"
   },
     "schema":
     {
-    "mqtt_host": "str",
-    "mqtt_port": "int",
-    "mqtt_user": "str",
-    "mqtt_password": "str",
-    "mqtt_topic": "str",
-    "mqtt_retain" : "str",
-    "frequency" : "str",
-    "protocol": "str",
-    "whitelist_enable": "bool",
-    "whitelist": "str",
-    "units": "str",
+    "mqtt_host": "str?",
+    "mqtt_port": "int?",
+    "mqtt_user": "str?",
+    "mqtt_password": "str?",
+    "mqtt_retain": "bool",
+    "rtl_topic": "str",
     "discovery_prefix": "str",
     "discovery_interval": "int",
-    "debug": "bool"
+    "force_update": "bool",
+    "log_level": "list(default|quiet|debug)"
     },
     "image": "smarthouseint/addon-rtl4332mqtt"
 }
