@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  rtl4332mqtt:
+    repository: Zipsnet/hassio-addons/addon-rtl4332mqtt
+    target: rtl4332mqtt
+    image: smarthouseint/addon-rtl4332mqtt
