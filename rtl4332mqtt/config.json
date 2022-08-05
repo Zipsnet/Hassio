@@ -15,7 +15,7 @@
     "mqtt_port": 1883,
     "mqtt_user": "user",
     "mqtt_password": "pass",
-    "mqtt_retain" : "true
+    "mqtt_retain" : "true",
     "mqtt_topic": "homeassistant/sensor/rtl_433/P142/+/events",
     "discovery_prefix": "homeassistant",
     "discovery_interval": 600,
