@@ -4,7 +4,7 @@
     "slug": "rtl4332mqtt",
     "description": "An RTL433 To MQTT Bridge",
     "arch": ["amd64", "i386", "armhf", "armv7", "aarch64"],
-    "url": "https://github.com/Zipsnet/hassio-addons/tree/master/rtl4332mqtt",
+    "url": "https://github.com/Zipsnet/hassio-addons/tree/main/rtl4332mqtt",
 
     "startup": "services",
     "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
