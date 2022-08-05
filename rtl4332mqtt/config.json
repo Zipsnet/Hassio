@@ -1,7 +1,7 @@
 {
     "name": "RTL433MQTT to Home Assistant",
     "version": "0.0.1",
-    "slug": "rtl4332mqtt",
+    "slug": "rtl433mqtt2hasio",
     "description": "An RTL433 To MQTT Bridge",
     "arch": ["amd64", "i386", "armhf", "armv7", "aarch64"],
     "url": "https://github.com/Zipsnet/hassio-addons/tree/main/rtl4332mqtt",
